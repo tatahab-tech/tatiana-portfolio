@@ -31,12 +31,12 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 // Typing Animation
 const texts = [
-    "Project Management Professional",
-    "Team Coordinator",
-    "Process Improvement Specialist",
+    "Project Coordinator",
+    "Team Coordinator", 
+    "Project Assistant",
     "Academic Project Leader",
-    "Problem Solver",
-    "Process Optimizer"
+    "Process Organizer",
+    "Project Support Specialist"
 ];
 
 let textIndex = 0;
