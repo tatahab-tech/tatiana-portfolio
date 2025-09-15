@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tatiana Khabibullina - Project Management Portfolio</title>
+    <title>Projects - Tatiana Khabibullina</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <!-- Force refresh: Updated skills sections with gradient background -->
     <!-- Updated: Italian Restaurant project changed to Website Development -->
     <style>
@@ -234,6 +235,55 @@
             text-align: center;
             margin-top: 40px;
         }
+        /* Navigation Styles */
+        .portfolio-nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            padding: 1rem 0;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        }
+        
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .nav-logo a {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #667eea;
+            text-decoration: none;
+        }
+        
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 8px 16px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        
+        .back-btn:hover {
+            background: #5a6fd8;
+            transform: translateY(-2px);
+        }
+        
+        .portfolio-content {
+            margin-top: 80px;
+        }
     </style>
     
     <script>
@@ -312,6 +362,18 @@
     </script>
 </head>
 <body>
+    <!-- Navigation -->
+    <nav class="portfolio-nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">Tatiana Khabibullina</a>
+            </div>
+            <a href="index.html" class="back-btn">
+                <i class="fas fa-arrow-left"></i> Back to Home
+            </a>
+        </div>
+    </nav>
+
     <!-- Animated Background -->
     <div class="animated-bg"></div>
     
@@ -335,20 +397,21 @@
         <div class="shape"></div>
     </div>
     
-    <header>
-        <div class="container">
-            <div class="hero-content">
-                <h1 class="fade-in-up">Tatiana Khabibullina</h1>
-                <div class="typing-animation">
-                    <span id="typing-text">Project Management Professional</span>
-                    <span class="typing-cursor">|</span>
+    <div class="portfolio-content">
+        <header>
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="fade-in-up">Project Portfolio</h1>
+                    <div class="typing-animation">
+                        <span id="typing-text">Academic Project Management</span>
+                        <span class="typing-cursor">|</span>
+                    </div>
+                    <p class="fade-in-up">Comprehensive project documentation showcasing planning, coordination, and execution skills</p>
                 </div>
-                <p class="fade-in-up">Passionate about bringing order to complex projects | Bellevue College PM Certificate | Master's in Organizational Management</p>
             </div>
-        </div>
-    </header>
+        </header>
 
-    <div class="container">
+        <div class="container">
         <div class="project-card">
             <h3 class="project-title">Community Wellness Festival 2025 - Academic Project</h3>
             <p><strong>Duration:</strong> 8 weeks | <strong>Team Size:</strong> 4 members | <strong>Role:</strong> Project Leader</p>
@@ -490,6 +553,7 @@
             <p>🔗 <a href="https://www.linkedin.com/in/tatiana-khabibullina-11516a208/" style="color: #4CAF50;">LinkedIn Profile</a></p>
             <p>📍 Redmond, WA</p>
         </div>
+    </div>
     </div>
 </body>
 </html>

@@ -3,204 +3,402 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tatiana Khabibullina - Project Management Portfolio</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 40px 0;
-            text-align: center;
-        }
-        .project-card {
-            background: white;
-            margin: 20px 0;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-        }
-        .project-title {
-            color: #333;
-            border-bottom: 3px solid #667eea;
-            padding-bottom: 10px;
-        }
-        .skills {
-            background: #e8f4fd;
-            padding: 20px;
-            border-radius: 8px;
-            margin: 20px 0;
-        }
-        .contact {
-            background: #333;
-            color: white;
-            padding: 30px;
-            text-align: center;
-            margin-top: 40px;
-        }
-    </style>
+    <title>Tatiana Khabibullina - Project Management Professional</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Tatiana Khabibullina</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#resume" class="nav-link">Resume</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="animated-bg"></div>
+        <div class="particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+        <div class="geometric-shapes">
+            <div class="shape"></div>
+            <div class="shape"></div>
+            <div class="shape"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="fade-in-up">Hello, I'm <span class="highlight">Tatiana</span></h1>
+                <div class="typing-animation">
+                    <span id="typing-text">Project Management Professional</span>
+                    <span class="typing-cursor">|</span>
+                </div>
+                <p class="hero-description fade-in-up">
+                    Passionate about bringing order to complex projects and helping teams work together effectively. 
+                    Ready to make an impact in your organization.
+                </p>
+                <div class="hero-buttons fade-in-up">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-avatar">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="profile-info">
+                        <h3>Tatiana Khabibullina</h3>
+                        <p>Project Management Professional</p>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/tatiana-khabibullina-11516a208/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="mailto:tatahab@gmail.com"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
         <div class="container">
-            <h1>Tatiana Khabibullina</h1>
-            <h2>Project Management Portfolio</h2>
-            <p>Bellevue College Project Management Certificate | Master's in Organizational Management</p>
-        </div>
-    </header>
-
-    <div class="container">
-        <div class="project-card">
-            <h3 class="project-title">Community Wellness Festival 2025 - Academic Project</h3>
-            <p><strong>Duration:</strong> 8 weeks | <strong>Team Size:</strong> 4 members | <strong>Role:</strong> Project Leader</p>
-            <h4>Project Overview:</h4>
-            <p>Developed comprehensive project plan for Bellevue College's Community Wellness Festival 2025 as part of Project Management Certificate program. Created detailed project charter, scope, timeline, and risk management strategies for a large-scale community event.</p>
-            
-            <h4>Key Deliverables:</h4>
-            <ul>
-                <li>Complete project charter with stakeholder analysis and success criteria</li>
-                <li>Detailed work breakdown structure (WBS) with 50+ tasks</li>
-                <li>Comprehensive risk management plan with mitigation strategies</li>
-                <li>Budget estimation and resource allocation plan</li>
-                <li>Communication plan and stakeholder engagement strategy</li>
-            </ul>
-            
-            <h4>Tools & Methodologies Used:</h4>
-            <div class="skills">
-                <strong>Tools:</strong> Smartsheet, Asana, Google Docs, Microsoft Teams<br>
-                <strong>Methodologies:</strong> Agile, Waterfall, Risk Management, WBS<br>
-                <strong>Skills:</strong> Project Planning, Stakeholder Analysis, Risk Assessment, Budget Planning
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>My Journey in Project Management</h3>
+                    <p>
+                        I'm a passionate project management professional with a Master's in Organizational Management 
+                        and a Project Management Certificate from Bellevue College. My journey began with a fascination 
+                        for bringing order to complex projects and helping teams work together effectively.
+                    </p>
+                    <p>
+                        Through hands-on experience using modern tools like Smartsheet, Asana, and MS 365, I've successfully 
+                        coordinated academic project teams and created detailed project documentation. I thrive on the 
+                        challenge of turning chaotic situations into well-organized, successful projects.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h4>4+</h4>
+                            <p>Academic Projects</p>
+                        </div>
+                        <div class="stat">
+                            <h4>5+</h4>
+                            <p>Team Members Led</p>
+                        </div>
+                        <div class="stat">
+                            <h4>100%</h4>
+                            <p>Project Success Rate</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-skills">
+                    <h3>Core Competencies</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fas fa-tasks"></i>
+                            <span>Project Planning</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-users"></i>
+                            <span>Team Coordination</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Process Improvement</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-tools"></i>
+                            <span>Tool Proficiency</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-file-alt"></i>
+                            <span>Documentation</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Problem Solving</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+    </section>
 
-        <div class="project-card">
-            <h3 class="project-title">BC Fundraiser Event - Academic Project</h3>
-            <p><strong>Duration:</strong> 6 weeks | <strong>Team Size:</strong> 4 members | <strong>Role:</strong> Central Team Member</p>
-            <h4>Project Overview:</h4>
-            <p>Played a central role in developing comprehensive scope of work and project plan for Bellevue College fundraising event. Utilized Asana for project coordination and task management while collaborating with team members to create detailed project charter, stakeholder analysis, and implementation strategy.</p>
-            
-            <h4>Key Deliverables:</h4>
-            <ul>
-                <li>Complete scope of work document with project objectives</li>
-                <li>Stakeholder analysis and communication plan</li>
-                <li>Budget estimation and fundraising strategy</li>
-                <li>Timeline with critical path analysis</li>
-                <li>Risk assessment and mitigation strategies</li>
-                <li>Asana project workspace setup and task coordination</li>
-            </ul>
-            
-            <h4>Tools & Methodologies Used:</h4>
-            <div class="skills">
-                <strong>Tools:</strong> Asana, Google Docs, Microsoft Teams, Excel<br>
-                <strong>Methodologies:</strong> Waterfall, Stakeholder Management, Task Coordination<br>
-                <strong>Skills:</strong> Project Planning, Budget Planning, Stakeholder Analysis, Team Collaboration
-            </div>
-        </div>
-
-        <div class="project-card">
-            <h3 class="project-title">Italian Restaurant Operations - Academic Project</h3>
-            <p><strong>Duration:</strong> 4 weeks | <strong>Team Size:</strong> 5 members | <strong>Role:</strong> Project Manager</p>
-            <h4>Project Overview:</h4>
-            <p>Developed comprehensive scope of work for Italian restaurant operations management. Created detailed operational procedures, staffing plans, and process documentation for restaurant business management.</p>
-            
-            <h4>Key Deliverables:</h4>
-            <ul>
-                <li>Complete scope of work for restaurant operations</li>
-                <li>Staffing structure and role definitions</li>
-                <li>Operational procedures and workflow documentation</li>
-                <li>Quality control and customer service standards</li>
-                <li>Financial planning and cost management strategies</li>
-            </ul>
-            
-            <h4>Tools & Methodologies Used:</h4>
-            <div class="skills">
-                <strong>Tools:</strong> Smartsheet, Google Docs, Microsoft Office 365<br>
-                <strong>Methodologies:</strong> Kanban, Process Mapping, Operations Management<br>
-                <strong>Skills:</strong> Business Analysis, Process Documentation, Operations Planning
-            </div>
-        </div>
-
-        <div class="project-card">
-            <h3 class="project-title">Deck Construction Project - Academic Project</h3>
-            <p><strong>Duration:</strong> 5 weeks | <strong>Team Size:</strong> Solo Project | <strong>Role:</strong> Project Manager</p>
-            <h4>Project Overview:</h4>
-            <p>Independently developed comprehensive scope of work for residential deck construction project. Created detailed project plan including timeline, resource allocation, safety protocols, and quality control measures for construction management as a solo academic project.</p>
-            
-            <h4>Key Deliverables:</h4>
-            <ul>
-                <li>Complete scope of work for construction project</li>
-                <li>Detailed timeline with critical path analysis</li>
-                <li>Resource allocation and contractor management plan</li>
-                <li>Safety protocols and risk management strategies</li>
-                <li>Quality control and inspection procedures</li>
-            </ul>
-            
-            <h4>Tools & Methodologies Used:</h4>
-            <div class="skills">
-                <strong>Tools:</strong> Smartsheet, Google Docs, Excel<br>
-                <strong>Methodologies:</strong> Waterfall, Risk Management, Quality Control<br>
-                <strong>Skills:</strong> Construction Planning, Risk Assessment, Resource Management
-            </div>
-        </div>
-
-        <div class="project-card">
-            <h3 class="project-title">Project Documentation & Artifacts</h3>
-            <p>Download and review detailed project documentation, reports, and deliverables:</p>
-            
-            <div class="skills">
-                <h4>📄 Academic Project Documents:</h4>
-                <ul>
-                    <li><a href="project1_fundraiser_scope.pdf" target="_blank">📋 BC Fundraiser Scope of Work</a> - Academic project planning document demonstrating project charter, stakeholder analysis, and implementation strategy</li>
-                    <li><a href="project2_wellness_festival.pdf" target="_blank">🏥 Community Wellness Festival 2025</a> - Comprehensive academic project plan showcasing work breakdown structure, risk management, and project lifecycle planning</li>
-                    <li><a href="project3_restaurant_operations.pdf" target="_blank">🍝 Italian Restaurant Operations SOW</a> - Academic scope of work document demonstrating business operations planning and process documentation</li>
-                    <li><a href="project4_construction_management.pdf" target="_blank">🏗️ Deck Construction Project SOW</a> - Academic construction project scope demonstrating technical planning, resource allocation, and risk management</li>
-                </ul>
-                
-                <h4>💼 Professional Documents:</h4>
-                <ul>
-                    <li><a href="resume_optimized.txt" target="_blank">📝 Professional Resume</a> - Detailed work experience and qualifications</li>
-                    <li><a href="https://www.linkedin.com/in/tatiana-khabibullina-11516a208/" target="_blank">🏆 LinkedIn Profile</a> - Professional network and additional project details</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="project-card">
-            <h3 class="project-title">Skills & Certifications</h3>
-            <div class="skills">
-                <h4>Project Management Tools:</h4>
-                <p>Smartsheet, Asana, Google Docs, Microsoft Teams, Excel</p>
-                
-                <h4>Methodologies:</h4>
-                <p>Agile, Waterfall, Kanban, Risk Management, WBS, Process Mapping</p>
-                
-                <h4>Education:</h4>
-                <p>Project Management Certificate - Bellevue College (2025)<br>
-                Master's in Organizational Management - Institute of Management (2008)</p>
-                
-                <h4>Key Strengths:</h4>
-                <p>Cross-functional Team Leadership, Stakeholder Management, Process Improvement, 
-                Communication, Problem Solving, Adaptability</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="contact">
+    <!-- Projects Section (Portfolio Integration) -->
+    <section id="projects" class="projects">
         <div class="container">
-            <h3>Let's Connect!</h3>
-            <p>📧 tatahab@gmail.com | 📞 (425) 533-3198</p>
-            <p>🔗 <a href="https://www.linkedin.com/in/tatiana-khabibullina-11516a208/" style="color: #4CAF50;">LinkedIn Profile</a></p>
-            <p>📍 Redmond, WA</p>
+            <h2 class="section-title">My Projects</h2>
+            <p class="section-subtitle">Academic projects demonstrating my project management skills and methodologies</p>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Community Wellness Festival 2025</h3>
+                        <span class="project-badge">Academic Project</span>
+                    </div>
+                    <div class="project-meta">
+                        <span><i class="fas fa-clock"></i> 8 weeks</span>
+                        <span><i class="fas fa-users"></i> 4 members</span>
+                        <span><i class="fas fa-user-tie"></i> Project Leader</span>
+                    </div>
+                    <p class="project-description">
+                        Led comprehensive planning for community wellness festival, including stakeholder analysis, 
+                        work breakdown structure, and risk management strategies.
+                    </p>
+                    <div class="project-tools">
+                        <span class="tool-tag">Asana</span>
+                        <span class="tool-tag">Google Docs</span>
+                        <span class="tool-tag">Kanban</span>
+                    </div>
+                    <a href="https://tatahab-tech.github.io/tatiana-portfolio/project2_wellness_festival.pdf" target="_blank" class="project-link">
+                        <i class="fas fa-external-link-alt"></i> View Project
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Italian Restaurant Website Development</h3>
+                        <span class="project-badge">Academic Project</span>
+                    </div>
+                    <div class="project-meta">
+                        <span><i class="fas fa-clock"></i> 4 weeks</span>
+                        <span><i class="fas fa-users"></i> 5 members</span>
+                        <span><i class="fas fa-user-tie"></i> Project Manager</span>
+                    </div>
+                    <p class="project-description">
+                        Developed comprehensive scope of work for restaurant website development, including requirements 
+                        analysis, design specifications, and implementation strategy.
+                    </p>
+                    <div class="project-tools">
+                        <span class="tool-tag">Smartsheet</span>
+                        <span class="tool-tag">MS Office 365</span>
+                        <span class="tool-tag">Process Mapping</span>
+                    </div>
+                    <a href="https://tatahab-tech.github.io/tatiana-portfolio/project3_restaurant_operations.pdf" target="_blank" class="project-link">
+                        <i class="fas fa-external-link-alt"></i> View Project
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>BC Fundraiser Event</h3>
+                        <span class="project-badge">Academic Project</span>
+                    </div>
+                    <div class="project-meta">
+                        <span><i class="fas fa-clock"></i> 6 weeks</span>
+                        <span><i class="fas fa-users"></i> 4 members</span>
+                        <span><i class="fas fa-user-tie"></i> Central Team Member</span>
+                    </div>
+                    <p class="project-description">
+                        Coordinated fundraising event planning with focus on stakeholder engagement, timeline management, 
+                        and resource allocation strategies.
+                    </p>
+                    <div class="project-tools">
+                        <span class="tool-tag">Asana</span>
+                        <span class="tool-tag">Google Docs</span>
+                        <span class="tool-tag">Agile</span>
+                    </div>
+                    <a href="https://tatahab-tech.github.io/tatiana-portfolio/project1_fundraiser_scope.pdf" target="_blank" class="project-link">
+                        <i class="fas fa-external-link-alt"></i> View Project
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Deck Construction Project</h3>
+                        <span class="project-badge">Solo Project</span>
+                    </div>
+                    <div class="project-meta">
+                        <span><i class="fas fa-clock"></i> 3 weeks</span>
+                        <span><i class="fas fa-users"></i> Solo</span>
+                        <span><i class="fas fa-user-tie"></i> Project Manager</span>
+                    </div>
+                    <p class="project-description">
+                        Independently managed construction project scope, including technical planning, resource allocation, 
+                        and comprehensive risk management documentation.
+                    </p>
+                    <div class="project-tools">
+                        <span class="tool-tag">MS Office 365</span>
+                        <span class="tool-tag">Excel</span>
+                        <span class="tool-tag">Risk Management</span>
+                    </div>
+                    <a href="https://tatahab-tech.github.io/tatiana-portfolio/project4_construction_management.pdf" target="_blank" class="project-link">
+                        <i class="fas fa-external-link-alt"></i> View Project
+                    </a>
+                </div>
+            </div>
+
+            <div class="projects-cta">
+                <a href="portfolio.html" class="btn btn-primary">View Full Portfolio</a>
+            </div>
         </div>
-    </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <div class="container">
+            <h2 class="section-title">Resume</h2>
+            <div class="resume-content">
+                <div class="resume-preview">
+                    <div class="resume-card">
+                        <div class="resume-header">
+                            <h3>Tatiana Khabibullina</h3>
+                            <p>Project Management Professional</p>
+                        </div>
+                        <div class="resume-highlights">
+                            <div class="highlight-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <div>
+                                    <h4>Master's in Organizational Management</h4>
+                                    <p>Bellevue College</p>
+                                </div>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-certificate"></i>
+                                <div>
+                                    <h4>Project Management Certificate</h4>
+                                    <p>Bellevue College</p>
+                                </div>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-tools"></i>
+                                <div>
+                                    <h4>Key Tools</h4>
+                                    <p>Smartsheet, Asana, MS 365, Google Docs</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="resume-actions">
+                    <h3>Download My Resume</h3>
+                    <p>Get a detailed view of my experience, skills, and achievements</p>
+                    <div class="resume-buttons">
+                        <a href="resume.html" target="_blank" class="btn btn-primary">
+                            <i class="fas fa-eye"></i> View Online
+                        </a>
+                        <a href="resume_optimized.txt" download class="btn btn-secondary">
+                            <i class="fas fa-download"></i> Download PDF
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Ready to discuss opportunities? Let's connect!</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Start a Conversation</h3>
+                    <p>
+                        I'm always excited to discuss new opportunities and how I can contribute to your team's success. 
+                        Whether you're looking for a project coordinator, program manager, or someone to bring order to 
+                        your next big initiative, I'd love to hear from you.
+                    </p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:tatahab@gmail.com">tatahab@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <a href="tel:+14255333198">(425) 533-3198</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <span>Redmond, WA</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <a href="https://www.linkedin.com/in/tatiana-khabibullina-11516a208/" target="_blank">Connect with me</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 Tatiana Khabibullina. All rights reserved.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://www.linkedin.com/in/tatiana-khabibullina-11516a208/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:tatahab@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
