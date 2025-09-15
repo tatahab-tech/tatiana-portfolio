@@ -1,23 +1,26 @@
-Tatiana Khabibullina
-📍 7245 147th CT NE, Redmond, WA 98052
-📞 (425) 533-3198 | ✉️ tatahab@gmail.com
-🔗 LinkedIn: https://www.linkedin.com/in/tatiana-khabibullina-11516a208/ | Portfolio: https://tatahab-tech.github.io/tatiana-portfolio/
+TATIANA KHABIBULLINA
+7245 147th CT NE, Redmond, WA 98052
+(425) 533-3198 | tatahab@gmail.com
+LinkedIn: https://www.linkedin.com/in/tatiana-khabibullina-11516a208/
+Portfolio: https://tatahab-tech.github.io/tatiana-portfolio/
 
 PROFESSIONAL SUMMARY
 Passionate project management professional with a Master's in Organizational Management and Project Management Certificate from Bellevue College. I thrive on bringing order to complex projects and helping teams work together effectively. With hands-on experience using Smartsheet, Asana, and MS 365, I've successfully coordinated academic project teams and created detailed project documentation. I'm excited to apply my planning skills, team coordination abilities, and process improvement mindset to real-world projects in a dynamic tech environment.
 
 EDUCATION
+
 Bellevue College, Redmond, WA
-Project Management Certificate of Accomplishment | June 2025
-• Completed comprehensive curriculum covering Agile, Scrum, Waterfall, and Kanban methodologies
+Project Management Certificate of Accomplishment, June 2025
+• Completed comprehensive curriculum covering Agile, Waterfall, and Kanban methodologies
 • Gained hands-on experience with industry-standard PM tools (Smartsheet, Asana, MS Project)
 
 Institute of Management, Russia
-Master's Degree in Organizational Management | June 2008
+Master's Degree in Organizational Management, June 2008
 Major: Financial Management
 • Developed expertise in strategic planning, resource allocation, and stakeholder management
 
 RELEVANT PROJECT EXPERIENCE
+
 Project Management Student Projects | Bellevue College | 2024–Present
 • Led 3 cross-functional team projects (3-5 members each) focusing on event planning and website development
 • Developed comprehensive project plans, timelines, and risk management strategies
@@ -26,6 +29,7 @@ Project Management Student Projects | Bellevue College | 2024–Present
 • Created stakeholder communication templates and project documentation standards
 
 PROFESSIONAL EXPERIENCE
+
 Independent English Instructor | The Lucky Pen, Redmond, WA | Apr 2023 – Jun 2024
 • Designed and delivered personalized curriculum for 15+ senior learners
 • Managed lesson planning, progress tracking, and feedback systems
@@ -37,24 +41,28 @@ Office Assistant | International Institute of Economics and Law, Russia | Dec 20
 • Developed organizational systems that improved data accuracy by 30%
 
 TECHNICAL SKILLS
-Project Management Tools: Smartsheet, Asana, Microsoft Project, Trello, Jira
-Methodologies: Agile, Scrum, Waterfall, Kanban, Lean Six Sigma
-Microsoft Office Suite: Teams, Outlook, Excel, PowerPoint, Word, SharePoint
-Communication: Stakeholder Management, Cross-functional Collaboration, Presentation Skills
+
+Project Management Tools: Smartsheet, Asana, Google Docs, Microsoft Teams, Excel
+Methodologies: Agile, Waterfall, Kanban, Risk Management, WBS, Process Mapping
+Microsoft Office Suite: Teams, Outlook, Excel, PowerPoint, Word
+Communication: Stakeholder Management, Team Collaboration, Presentation Skills
 Languages: English (Fluent), Russian (Native)
 
 CERTIFICATIONS & TRAINING
+
 • Project Management Certificate of Accomplishment (Bellevue College) - In Progress
 • Google Project Management Certificate (Coursera) - Recommended Next Step
 • CAPM (Certified Associate in Project Management) - Recommended Next Step
 
 KEY ACHIEVEMENTS
+
 • Successfully managed 3 academic projects with 100% on-time delivery
 • Improved team communication efficiency by implementing structured meeting protocols
 • Created standardized project documentation templates adopted by 2 additional student teams
 • Demonstrated adaptability by transitioning from in-person to virtual project management
 
 INTERESTS
+
 • Process Improvement & Optimization
 • Technology Integration in Project Management
 • Continuous Learning & Professional Development
